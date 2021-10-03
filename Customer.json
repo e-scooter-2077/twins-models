@@ -1,0 +1,33 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:escooter:Customer;1",
+  "@type": "Interface",
+  "displayName": "Customer",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Id",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "is_riding",
+      "displayName": "is riding",
+      "target": "dtmi:com:escooter:EScooter;1",
+      "properties": [
+        {
+          "@type": "Property",
+          "name": "rentId",
+          "schema": "string"
+
+        },
+        {
+          "@type": "Property",
+          "name": "start",
+          "schema": "dateTime"
+        }
+      ]
+
+    }
+  ]
+}
