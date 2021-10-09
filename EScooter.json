@@ -5,11 +5,6 @@
   "displayName": "E-Scooter",
   "contents": [
     {
-      "@type": "Property",
-      "name": "Id",
-      "schema": "string"
-    },
-    {
       "@type": ["Property", "TimeSpan"],
       "name": "UpdateFrequency",
       "schema": "integer",
@@ -32,7 +27,8 @@
       "@type": ["Property", "Velocity"],
       "name": "MaxSpeed",
       "schema": "double",
-      "unit": "kilometrePerHour"
+      "unit": "kilometrePerHour",
+      "writable": true
     },
     {
       "@type": "Property", 
@@ -42,35 +38,14 @@
       "comment": "percentage semantic type is missing"
     },
     {
-      "@type": "Property", 
-      "name": "StandbyThreshold",
-      "schema": "double",
-      "comment": "percentage semantic type is missing"
+      "@type": "Property",
+      "name": "Connected",
+      "schema": "boolean"
     },
     {
-      "@type": "Property",
-      "name": "PowerSavingMode",
-      "schema": {
-        "@type": "Enum",
-        "valueSchema": "integer",
-        "enumValues": [
-          {
-            "name": "standby",
-            "enumValue": 0,
-            "displayName": "Standby Mode"
-          },
-          {
-            "name": "power_save",
-            "enumValue": 1,
-            "displayName": "Power Saving Mode"
-          },
-          {
-            "name": "standard",
-            "enumValue": 2,
-            "displayName": "Standard Mode"
-          }
-        ]
-      }
+      "@type": "Property", 
+      "name": "Standby",
+      "schema": "boolean"
     },
     {
       "@type": "Property",
