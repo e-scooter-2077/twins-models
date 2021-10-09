@@ -8,7 +8,7 @@
       "@type": ["Property", "TimeSpan"],
       "name": "UpdateFrequency",
       "schema": "integer",
-      "unit": "minute",
+      "unit": "second",
       "writable": true
     },
     {
