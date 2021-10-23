@@ -5,11 +5,6 @@
   "displayName": "Customer",
   "contents": [
     {
-      "@type": "Property",
-      "name": "Id",
-      "schema": "string"
-    },
-    {
       "@type": "Relationship",
       "name": "is_riding",
       "displayName": "is riding",
