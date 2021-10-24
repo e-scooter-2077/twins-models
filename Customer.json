@@ -12,12 +12,6 @@
       "properties": [
         {
           "@type": "Property",
-          "name": "rentId",
-          "schema": "string"
-
-        },
-        {
-          "@type": "Property",
           "name": "start",
           "schema": "dateTime"
         }
