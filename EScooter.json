@@ -5,13 +5,6 @@
   "displayName": "E-Scooter",
   "contents": [
     {
-      "@type": ["Property", "TimeSpan"],
-      "name": "UpdateFrequency",
-      "schema": "integer",
-      "unit": "second",
-      "writable": true
-    },
-    {
       "@type": "Property",
       "name": "Locked",
       "schema": "boolean",
@@ -29,13 +22,6 @@
       "schema": "double",
       "unit": "kilometrePerHour",
       "writable": true
-    },
-    {
-      "@type": "Property", 
-      "name": "PowerSavingThreshold",
-      "schema": "double",
-      "writable": true,
-      "comment": "percentage semantic type is missing"
     },
     {
       "@type": "Property",
@@ -70,12 +56,6 @@
       "name": "Speed",
       "schema": "double",
       "unit": "kilometrePerHour"
-    },
-    {
-      "@type": ["Property", "Acceleration"],
-      "name": "Acceleration",
-      "unit": "metrePerSecondSquared",
-      "schema": "double"
     }
   ]
 }
