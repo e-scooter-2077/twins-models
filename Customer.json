@@ -5,6 +5,11 @@
   "displayName": "Customer",
   "contents": [
     {
+      "@type": "Property",
+      "name": "username",
+      "schema": "string"
+    },
+    {
       "@type": "Relationship",
       "name": "is_riding",
       "displayName": "is riding",
@@ -16,7 +21,6 @@
           "schema": "dateTime"
         }
       ]
-
     }
   ]
 }
