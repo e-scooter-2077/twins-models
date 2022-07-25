@@ -6,7 +6,7 @@
   "contents": [
     {
       "@type": "Property",
-      "name": "username",
+      "name": "Username",
       "schema": "string"
     },
     {
